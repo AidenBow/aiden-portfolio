@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Profile />
-      <img alt="under construction" style={{marginTop: 60, width: "100%", maxWidth: 300}} src="https://media.giphy.com/media/S5JSwmQYHOGMo/200.gif"></img>
+      <img alt="under construction" style={{margin: "60px 0px", width: "100%", maxWidth: 300}} src="https://media.giphy.com/media/S5JSwmQYHOGMo/200.gif"></img>
     </div>
   );
 }

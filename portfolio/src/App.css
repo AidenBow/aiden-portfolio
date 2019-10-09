@@ -6,6 +6,9 @@
   background-attachment: fixed;
   width: 100%;
 }
+.App:before{
+  position: fixed
+}
 
 .App-logo {
   height: 40vmin;
