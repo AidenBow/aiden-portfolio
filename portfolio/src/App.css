@@ -38,6 +38,16 @@
   justify-content: space-evenly
 }
 
+@media only screen and (max-width: 800px) {
+  .profileContainer {
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+  }
+}
+
 .profileText {
   padding: 70px 0;
   color: white;
@@ -50,3 +60,4 @@ h1 {
 p {
   font-size: 1.3rem;
 }
+
