@@ -71,3 +71,15 @@ p {
     font-size: 2rem;
   }
 }
+
+.screenshot {
+  max-width: 230px;
+  width: 100%
+}
+
+.projectCard {
+  background: lightgray;
+  margin: -20px auto 0;
+  padding: 5px 10px 15px 10px;
+  width: 17%;
+}
