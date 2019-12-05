@@ -58,6 +58,20 @@ p {
   font-size: 1.3rem;
 }
 
+
+
+.screenshot {
+  max-width: 230px;
+  width: 100%
+}
+
+.projectCard {
+  background: lightgray;
+  margin: -20px auto 0;
+  padding: 5px 10px 15px 10px;
+  width: 17%;
+}
+
 @media only screen and (max-width: 1000px) {
   .profileContainer {
     margin: 0 auto;
@@ -70,16 +84,11 @@ p {
   h1 {
     font-size: 2rem;
   }
-}
 
-.screenshot {
-  max-width: 230px;
-  width: 100%
-}
-
-.projectCard {
-  background: lightgray;
-  margin: -20px auto 0;
-  padding: 5px 10px 15px 10px;
-  width: 17%;
+  .projectCard {
+    background: lightgray;
+    margin: -20px auto 0;
+    padding: 5px 10px 15px 10px;
+    width: 60%;
+  }
 }
