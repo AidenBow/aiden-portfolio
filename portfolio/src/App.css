@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: linear-gradient(45deg, rgba(48, 160, 200, 0.36) 0%, rgba(48, 160, 200, 0.36) 27%,rgba(66, 208, 212, 0.36) 27%, rgba(66, 208, 212, 0.36) 30%,rgba(57, 184, 206, 0.36) 30%, rgba(57, 184, 206, 0.36) 38%,rgba(75, 232, 218, 0.36) 38%, rgba(75, 232, 218, 0.36) 41%,rgba(38, 135, 193, 0.36) 41%, rgba(38, 135, 193, 0.36) 67%,rgba(29, 111, 187, 0.36) 67%, rgba(29, 111, 187, 0.36) 68%,rgba(20, 87, 181, 0.36) 68%, rgba(20, 87, 181, 0.36) 71%,rgba(11, 63, 175, 0.36) 71%, rgba(11, 63, 175, 0.36) 100%),linear-gradient(45deg, rgba(120, 161, 172, 0.37) 0%, rgba(120, 161, 172, 0.37) 12.5%,rgba(83, 81, 120, 0.37) 12.5%, rgba(83, 81, 120, 0.37) 25%,rgba(132, 188, 189, 0.37) 25%, rgba(132, 188, 189, 0.37) 37.5%,rgba(95, 108, 137, 0.37) 37.5%, rgba(95, 108, 137, 0.37) 50%,rgba(144, 215, 206, 0.37) 50%, rgba(144, 215, 206, 0.37) 62.5%,rgba(107, 135, 154, 0.37) 62.5%, rgba(107, 135, 154, 0.37) 75%,rgba(156, 242, 223, 0.37) 75%, rgba(156, 242, 223, 0.37) 87.5%,rgba(71, 54, 103, 0.37) 87.5%, rgba(71, 54, 103, 0.37) 100%),linear-gradient(63deg, rgb(156, 214, 233),rgb(74, 10, 132));
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
@@ -33,11 +33,12 @@
   max-width: 500px;
   width: 90%;
   border-radius: 10px;
+
 }
 
 .profileContainer {
   margin: 0 auto;
-  padding: 60px 5%;
+  padding: 80px 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly
@@ -48,31 +49,38 @@
 .profileText {
   padding: 70px 0;
   color: white;
+  margin: auto 0;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 p {
   font-size: 1.3rem;
 }
 
-
-
 .screenshot {
-  max-width: 230px;
+  max-width: 400px;
   width: 100%
 }
 
 .projectCard {
   background: lightgray;
-  margin: -20px auto 0;
+  margin: -80px auto 0;
   padding: 5px 10px 15px 10px;
   width: 17%;
 }
 
 @media only screen and (max-width: 1000px) {
+  .App {
+    text-align: center;
+    background: linear-gradient(45deg, rgba(48, 160, 200, 0.36) 0%, rgba(48, 160, 200, 0.36) 27%,rgba(66, 208, 212, 0.36) 27%, rgba(66, 208, 212, 0.36) 30%,rgba(57, 184, 206, 0.36) 30%, rgba(57, 184, 206, 0.36) 38%,rgba(75, 232, 218, 0.36) 38%, rgba(75, 232, 218, 0.36) 41%,rgba(38, 135, 193, 0.36) 41%, rgba(38, 135, 193, 0.36) 67%,rgba(29, 111, 187, 0.36) 67%, rgba(29, 111, 187, 0.36) 68%,rgba(20, 87, 181, 0.36) 68%, rgba(20, 87, 181, 0.36) 71%,rgba(11, 63, 175, 0.36) 71%, rgba(11, 63, 175, 0.36) 100%),linear-gradient(45deg, rgba(120, 161, 172, 0.37) 0%, rgba(120, 161, 172, 0.37) 12.5%,rgba(83, 81, 120, 0.37) 12.5%, rgba(83, 81, 120, 0.37) 25%,rgba(132, 188, 189, 0.37) 25%, rgba(132, 188, 189, 0.37) 37.5%,rgba(95, 108, 137, 0.37) 37.5%, rgba(95, 108, 137, 0.37) 50%,rgba(144, 215, 206, 0.37) 50%, rgba(144, 215, 206, 0.37) 62.5%,rgba(107, 135, 154, 0.37) 62.5%, rgba(107, 135, 154, 0.37) 75%,rgba(156, 242, 223, 0.37) 75%, rgba(156, 242, 223, 0.37) 87.5%,rgba(71, 54, 103, 0.37) 87.5%, rgba(71, 54, 103, 0.37) 100%),linear-gradient(63deg, rgb(156, 214, 233),rgb(74, 10, 132));
+    height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+  }
   .profileContainer {
     margin: 0 auto;
     padding: 60px 5%;
@@ -87,8 +95,22 @@ p {
 
   .projectCard {
     background: lightgray;
-    margin: -20px auto 0;
+    margin: 0 auto 0;
     padding: 5px 10px 15px 10px;
     width: 60%;
   }
+}
+
+.projectContainer {
+  display:flex;
+  justify-content: center;
+}
+.logoContainer {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.bodyContainer{
+  background-color: lightslategray;
 }

@@ -10,7 +10,7 @@ const Profile = () => {
             <section>
                 <img alt="Aiden's face!" className="profileIMG" src="https://avatars0.githubusercontent.com/u/49966384?s=400&u=6073710f9d6567a0de54a2f015efc1219c096253&v=4"></img>
             </section>
-
+        
         </div>
     )
 }
