@@ -11,7 +11,7 @@ function App() {
       <div className="bodyContainer">
         <Projects />
         <img alt="under construction" style={{margin: "60px 0px", width: "100%", maxWidth: 200}} src="https://media.giphy.com/media/S5JSwmQYHOGMo/200.gif"></img>
-        <p>I'm learning more at Lambda School! Visit again later to see my newest projects!</p>
+        <p>I'm learning more at Lambda School! Visit me often to see my newest projects!</p>
       </div>
     </div>
   );
