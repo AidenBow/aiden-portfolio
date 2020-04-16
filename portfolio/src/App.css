@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
+  
 }
 .App:before{
   position: fixed
@@ -54,10 +55,12 @@
 
 h1 {
   font-size: 5rem;
+  color: white;
 }
 
 p {
   font-size: 1.3rem;
+  color: white;
 }
 
 .screenshot {
@@ -103,7 +106,10 @@ p {
 
 .projectContainer {
   display:flex;
+  flex-direction: row;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .logoContainer {
   display: flex; 
@@ -112,5 +118,5 @@ p {
   margin: 0 auto;
 }
 .bodyContainer{
-  background-color: lightslategray;
+  background-color: rgb(44, 31, 61);
 }
