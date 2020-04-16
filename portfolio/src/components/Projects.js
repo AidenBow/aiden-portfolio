@@ -9,7 +9,7 @@ const Projects = () => {
             
         </div>
 
-        <h1>My Projects!</h1>
+        <h1>My Projects! </h1>
         <div className="projectContainer">
             <Card style={{margin: 0, width: 400}}>
             <h3>Pokemon API</h3>
