@@ -12,12 +12,12 @@ const Projects = () => {
             <div><img src={require("../img/react.png")} style={{width: "40%"}}></img><img src={require("../img/redux.png")} style={{width: "20%"}}></img></div>
             
         </div>
-        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", width: "80%", margin: "0 auto"}}>
+        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", width: "90%", margin: "0 auto"}}>
             <div className="aboutContainer">
                 <h2 style={{color: "black", position: "relative", top: -30 , textAlign: "left"}}>Who am I?</h2>
                 <p style={{color: "black", textAlign: "left"}}>I'm a front-end focused web developer located in Gilbert, Arizona. I'm currently a student at Lambda School studying web development and computer science. My goal is to make your website a fun experience that everyone can enjoy.</p>
             </div>
-            <div style={{width: "40%", margin: "auto 5%"}}><img style={{width: "100%", maxWidth: 500, maxHeight: 400}} src={require("../img/lambdaedit.jpg")}></img></div>
+            <div style={{width: "50%", margin: "auto 5%"}}><img style={{width: "100%", maxWidth: 500, maxHeight: 400}} src={require("../img/lambdaedit.jpg")}></img></div>
         </div>
 
         <h1>My Projects! </h1>
@@ -84,7 +84,7 @@ const Projects = () => {
                 <h5>Review restaurants and add your favorites to your Restaurant Passport! In this project I worked with 5 other web developers, my job was to create a CRUD API (backend) using SQLite. You can go thorugh the account making process, login, and upload your favorite restaurant and leave a review after adding them to your passport! </h5>
                 <h4>Tech Stack: </h4>
                 <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", margin: "-10px 0 10px 0"}}>
-                    <h5>Node.js | SQLite | SQW </h5>
+                    <h5>Node.js | SQLite | SQL | JWT Authorization </h5>
                 </div>
  
                     <a href="https://github.com/bw-restaurant-passport-1/Back-end"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
@@ -94,6 +94,12 @@ const Projects = () => {
             </Card>
         </div>
         
+        <div>
+            <h1 style={{color: "white", margin: "20px auto"}}>Contact me! 
+            {"\n"}
+            <a href="mailto:aiden.bowcott@gmail.com">aiden.bowcott@gmail.com</a></h1>
+        </div>
+
         </div>
     )
 }
