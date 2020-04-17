@@ -5,8 +5,13 @@ const Projects = () => {
         <div>
         <div className="logoContainer">
             <div><img src={require("../img/html5.png")} style={{width: "40%", position: "relative", bottom: 70}}></img></div>
-            <div><img src={require("../img/react.png")} style={{width: "40%", position: "relative", bottom: 70}}></img></div>
+            <div><img src={require("../img/react.png")} style={{width: "40%", position: "relative", bottom: 70, margin: "0 0 -50 0"}}></img></div>
             
+        </div>
+
+        <div className="aboutContainer">
+            <h1>Who am I?</h1>
+            <p>I'm a front-end focused web developer located in Gilbert, Arizona. I'm currently a student at Lambda School studying web development and computer science and my goal is to make websites a fun experience that everyone can enjoy.</p>
         </div>
 
         <h1>My Projects! </h1>
