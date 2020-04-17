@@ -15,9 +15,9 @@ const Projects = () => {
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", width: "90%", margin: "0 auto"}}>
             <div className="aboutContainer">
                 <h2 style={{color: "black", position: "relative", top: -30 , textAlign: "left"}}>Who am I?</h2>
-                <p style={{color: "black", textAlign: "left"}}>I'm a front-end focused web developer located in Gilbert, Arizona. I'm currently a student at Lambda School studying web development and computer science. My goal is to make your website a fun experience that everyone can enjoy.</p>
+                <p style={{color: "black", textAlign: "left"}}>I'm a front-end focused web developer located in Gilbert, Arizona. I'm currently a student at Lambda School studying web development and computer science. My goal is to make your website a fun experience that everyone can enjoy!</p>
             </div>
-            <div style={{width: "50%", margin: "auto 5%"}}><img style={{width: "100%", maxWidth: 500, maxHeight: 400}} src={require("../img/lambdaedit.jpg")}></img></div>
+            <div style={{width: "50%", margin: "auto 0 "}}><img style={{width: "100%", maxWidth: 500, maxHeight: 400}} src={require("../img/lambdaedit.jpg")}></img></div>
         </div>
 
         <h1>My Projects! </h1>
@@ -95,7 +95,7 @@ const Projects = () => {
         </div>
         
         <div>
-            <h1 style={{color: "white", margin: "20px auto"}}>Contact me! 
+            <h1 style={{color: "white", margin: "40px auto 20px"}}>Contact me! 
             {"\n"}
             <a href="mailto:aiden.bowcott@gmail.com">aiden.bowcott@gmail.com</a></h1>
         </div>
