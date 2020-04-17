@@ -81,8 +81,15 @@ const Projects = () => {
                 <img className="screenshot"  src={require('../img/passport.png')} alt="screenshot of blockflow website"></img>
             </a>
             <Card.Content>
-                <h5>Review restaurants and add your favorites to your Restaurant Passport! In this project I worked with 5 other web developers, my job was to create a CRUD API (backend) using SQL3. You can go thorugh the account making process, login, and upload your favorite restaurant and leave a review after adding them to your passport! </h5>
-                <h5>Github repo <a href="https://github.com/bw-restaurant-passport-1/Back-end">here</a></h5>
+                <h5>Review restaurants and add your favorites to your Restaurant Passport! In this project I worked with 5 other web developers, my job was to create a CRUD API (backend) using SQLite. You can go thorugh the account making process, login, and upload your favorite restaurant and leave a review after adding them to your passport! </h5>
+                <h4>Tech Stack: </h4>
+                <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", margin: "-10px 0 10px 0"}}>
+                    <h5>Node.js | SQLite | SQW </h5>
+                </div>
+ 
+                    <a href="https://github.com/bw-restaurant-passport-1/Back-end"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
+                    <h5 style={{margin: 0}}>Github repo <a href="https://github.com/bw-restaurant-passport-1/Back-end">here</a></h5>
+        
             </Card.Content>
             </Card>
         </div>
