@@ -6,15 +6,15 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const Projects = () => {
     return (
         <div>
-            <h1 className="techStack"> My Tech Stack</h1>
+            <h2 className="techStack"> My Tech Stack</h2>
         <div className="logoContainer">
             <div><img src={require("../img/sass.png")} style={{width: "15%"}}></img><img src={require("../img/html5.png")} style={{width: "40%"}}></img></div>
             <div><img src={require("../img/react.png")} style={{width: "40%"}}></img><img src={require("../img/redux.png")} style={{width: "20%"}}></img></div>
             
         </div>
-        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly"}}>
+        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-evenly", width: "80%", margin: "0 auto"}}>
             <div className="aboutContainer">
-                <h1 style={{color: "black", position: "relative", top: -30 , textAlign: "left"}}>Who am I?</h1>
+                <h2 style={{color: "black", position: "relative", top: -30 , textAlign: "left"}}>Who am I?</h2>
                 <p style={{color: "black", textAlign: "left"}}>I'm a front-end focused web developer located in Gilbert, Arizona. I'm currently a student at Lambda School studying web development and computer science. My goal is to make your website a fun experience that everyone can enjoy.</p>
             </div>
             <div style={{width: "40%", margin: "auto 5%"}}><img style={{width: "100%", maxWidth: 500, maxHeight: 400}} src={require("../img/lambdaedit.jpg")}></img></div>
